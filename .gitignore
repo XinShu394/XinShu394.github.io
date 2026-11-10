@@ -1,0 +1,8 @@
+/SHUXIN_角色资产包/
+*.pdf
+/dist/
+/node_modules/
+/tmp/
+/tools/private-*
+*.log
+.env*
