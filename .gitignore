@@ -6,3 +6,10 @@
 /tools/private-*
 *.log
 .env*
+/concepts/
+/.claude/
+/BOGAME.png
+/Textagent.png
+/砖皮百科.png
+/转皮百科2.png
+/腾讯.jpg
