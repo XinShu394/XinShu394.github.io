@@ -86,6 +86,7 @@
       <p class="meta"><span>${esc(kinds[p.kind])}</span><time>${esc(p.period)}</time></p>
       <h3>${esc(p.title)}</h3><p class="d-sub">${esc(p.subtitle)}　·　${esc(p.role)}</p>
       <p class="d-tag">${esc(p.tagline)}</p>
+      ${p.reviewedAt ? `<p class="source-note">内容核对：${esc(p.reviewedAt)} · ${esc(p.sourceNote || '')}</p>` : ''}
       ${p.shots ? `<div class="shots n${p.shots.length}">${p.shots.map(s => `<img src="${s}" alt="${esc(p.title)} 截图" loading="lazy">`).join('')}</div>` : ''}
       <div class="d-cols">
         <div><h4>背景</h4><p>${esc(p.problem)}</p><h4>成果</h4><ul class="d-res">${p.results.map(r => `<li>${esc(r)}</li>`).join('')}</ul></div>

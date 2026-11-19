@@ -33,6 +33,7 @@ npm run build   # 输出到 dist/
 
 ## 来源与版权
 
-- 履历与项目数据依据本人简历（含真实性边界），不代表实时统计。
+- 履历与历史运营数字依据本人简历，不代表实时统计。2026-11-19 对 TextAgent、砖皮百科进行了仓库核对，并经本人授权增加 BOGAME-Arena 与 bigfish-lab 简介；研究原型不等于已完成真实平台实验。
+- 项目更新由私有 `XinShu394/career-project-map` 的公开白名单导出。其 `scripts/export_website.py --website <本目录>` 更新 `content.js`，再执行 check/build。直接编辑时同步回索引，避免下次导出覆盖。
 - 腾讯、国泰海通、Steam、TapTap 的 logo 来自 Wikimedia Commons 或本人提供的图片；DataEye、引力引擎与两所学校的 logo 来自各自官网；Wind 截图来自 Wind 官网。商标与截图归各自权利人所有，仅用于说明个人经历。
 - SHUXIN 角色素材归作者本人所有，未授予再分发许可。
